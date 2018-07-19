@@ -48,7 +48,7 @@
       <label class="form-check-label">Send me promotional offers</label>
     </div>
 
-    <button class="btn btn-primary" type="submit">Submit</button>
+    <button class="btn btn-primary" type="submit" [disabled]="userForm.form.invalid || topicHasError">Submit</button>
 
   </form>
 </div>
