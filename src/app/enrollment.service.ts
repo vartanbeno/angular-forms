@@ -7,7 +7,7 @@ import { User } from './user';
 })
 export class EnrollmentService {
 
-  url = '';
+  url = 'http://localhost:3000/enroll';
 
   constructor(private http: HttpClient) { }
 
